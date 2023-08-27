@@ -2,7 +2,7 @@
 sleep 3
 # search the USB device as it sometimes is USB0 or USB1
 # USB_DEVICE=`find /dev/ -name vitocal*`
-USB_DEVICE=/dev/vitocal
+USB_DEVICE=/dev/ttyUSB0
 echo "Device ${USB_DEVICE}"
 # make device accessable
 chmod 777 ${USB_DEVICE}
